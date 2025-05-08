@@ -1,0 +1,538 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cormorant Garamond', serif;
+}
+body {
+  background-color: #fdf8f5;
+  color: #3a3a3a;
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: #8c52ff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #8c52ff;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.categories .btn {
+  background-color: #b79ced;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.categories .btn:hover {
+  background-color: #8c52ff;
+}
+
+/* Greet Section */
+.greet {
+  background: linear-gradient(to right, #b79ced, #8c52ff);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.title-des {
+  font-size: 20px;
+}
+
+.collection {
+  text-align: center;
+  padding: 60px 20px;
+}
+.women{
+  text-align: center;
+  gap: 10px;
+}
+
+.collection h2, .women h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #8c52ff;
+  margin-bottom: 20px;
+}
+
+.descrip {
+  color: #3a3a3a;
+  margin-bottom: 40px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #8c52ff;
+  border-radius: 15px;
+  transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 10px #d4af37;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.product-card h3 {
+  margin: 5px 10px;
+  color:  #493a08;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.product-card .btn {
+  background-color: #d4af37;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.product-card .btn:hover {
+  background-color: #b79ced;
+}
+/*awareness*/
+.click{
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+/*pasilip*/
+.product-cardw12 {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #8c52ff;
+  border-radius: 15px;
+  transition: box-shadow 0.3s;
+  width: 280px;
+}
+.product-cardw12 img {
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.product-cardw12 h3 {
+  color: #3a3a3a;
+  margin-top: 15px;
+}
+
+.product-cardw12 p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Woody Collection */
+.collection1 {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.product-gridw {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.product-cardw1 {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #8c52ff;
+  border-radius: 15px;
+  transition: box-shadow 0.3s;
+  width: 280px;
+}
+.product-cardw1:hover {
+  background-color: #755fa3; 
+  color: white;
+  transform: scale(1.05);
+}
+
+.product-cardw1 img {
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.product-cardw h3 {
+  color: #3a3a3a;
+  margin-top: 15px;
+}
+
+.product-cardw p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background-color: #8c52ff;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.footer p {
+  font-size: 16px;
+}
+
+  .trivia {
+    margin: 40px 10px;
+    text-align: center;
+  }
+  
+  .trivia h6 {
+    font-family: serif;
+    font-size: 30px;
+    color: var(--light-color);
+  }
+  
+  .trivia p {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 50px;
+    padding: 10 10px;
+  }
+
+/*woodscents1/*/
+
+.product-des {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 150px;
+  padding: 50px 20px;
+  background-color: rgb(79, 79, 133);
+}
+.product-img {
+  width: 40%; 
+  height: 600px; 
+  border-radius: 15px;
+  position: relative;
+  border: 2px dashed white;
+  padding: 10px 10px;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  border-radius: 15px;
+}
+/*floral*/
+.product-imgfloral {
+  width: 40%; 
+  height: 600px; 
+  border-radius: 15px;
+  position: relative;
+  border: 5px dotted white;
+  padding: 10px 10px;
+}
+
+.product-imgfloral img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  border-radius: 15px;
+}
+/*citrus*/
+.product-imgcitrus {
+  width: 40%; 
+  height: 600px; 
+  border-radius: 15px;
+  position: relative;
+  border: 5px inset rgb(255, 255, 255);
+  padding: 10px 10px;
+}
+
+.product-imgcitrus img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  border-radius: 15px;
+}
+/*fresh*/
+.product-imgfresh {
+  width: 40%; 
+  height: 600px; 
+  border-radius: 15px;
+  position: relative;
+  border: 5px double rgb(255, 255, 255);
+  padding: 10px 10px;
+}
+
+.product-imgfresh img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.product-text {
+  max-width: 500px;
+  color: white;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.product-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.product-description {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+  color: var(--light-color);
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+}
+
+
+.product-grid3 {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 2px solid rgb(79, 79, 133);
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 10px var(--secondary-color);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-card h4 {
+  font-size: 20px;
+  color: var(--dark-color);
+  margin-bottom: 10px;
+}
+/*about na*/
+.story{
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  padding: 130px 250px;
+  margin: 40px 40px;
+  border: solid 2px goldenrod;
+  border-radius: 10px;
+}
+.story h5{
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
+}
+
+.story p{
+  font-size: 30px;
+  line-height: 30px;
+}
+.mv{
+  display: flex;
+  padding: 40px 40px;
+  gap: 50px;
+  color: rgb(0, 0, 0);
+  font-family: 'Lora', serif;
+}
+.mission{
+  font-size: 50px;
+}
+.mission p{
+  font-size: 30px;
+}
+.vision{
+  font-size: 50px;
+}
+.vision p{
+  font-size: 30px;
+}
+/*contact*/
+.contact-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width:100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-card img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 35px;
+}
+
+.contact-card h2 {
+  margin: 0;
+  font-size: 44px;
+}
+
+.contact-card p {
+  padding: 10px 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 5px 0;
+  color: #000000;
+}
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 40px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color:goldenrod; 
+}
+.budget{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width:100%;
+  padding: 20px;
+  margin-top: 5%;
+}
+.budget p, .budget .btn{
+  padding: 10px 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 5px 0;
+  color: #000000;
+}
+.budget img {
+  border-radius: 15px;
+  margin-bottom: 35px;
+  width: 800px;
+  height: 500px;
+}
+.budget h5 {
+  text-align: center;
+  margin: 0;
+  font-size: 44px;
+}
+.wantmore .btn, .collection1 .btn{
+  background-color: #d4af37;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/*individual perfumes*/
