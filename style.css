@@ -408,7 +408,7 @@ nav a:hover {
 /*about na*/
 .story{
   align-items: center;
-  padding: 130px 250px;
+  padding: 130px 20px;
   margin: 30px 20px;
   border: solid 2px goldenrod;
   border-radius: 10px;
@@ -425,6 +425,7 @@ nav a:hover {
 }
 .mv{
   display: flex;
+  flex-wrap: wrap;
   padding: 40px 40px;
   gap: 50px;
   color: rgb(0, 0, 0);
@@ -490,7 +491,7 @@ nav a:hover {
 }
 .budget{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   background: #fff;
   border-radius: 10px;
@@ -508,10 +509,11 @@ nav a:hover {
   color: #000000;
 }
 .budget img {
+  width: 850px;
+  height: 650px;
+  object-fit: cover;
   border-radius: 15px;
-  margin-bottom: 35px;
-  width: 800px;
-  height: 500px;
+  margin-bottom: 15px;
 }
 .budget h5 {
   text-align: center;
@@ -529,7 +531,11 @@ nav a:hover {
 }
 
 @media (max-width: 480px) {
-  /* Adjust navbar */
+  body {
+    padding: 10px;
+    width: 100%;
+    overflow-x: hidden;
+  }
   nav {
     padding: 15px;
     flex-direction: column;
@@ -545,5 +551,31 @@ nav a:hover {
   .logo {
     font-size: 24px;
   }
+  .budget {
+    padding: 10px;
+    margin-top: 10%;
+  }
+
+  .budget img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+  }
+  .product-imgfresh, .product-imgcitrus, .product-imgfloral, .product-img {
+    width: 100%; 
+    height: 300px; 
+    border-radius: 15px;
+    position: relative;
+    border: 5px double rgb(255, 255, 255);
+    padding: 10px 10px;
+  }
+  
+  .product-imgfresh img, .product-imgcitrus img, .product-imgfloral img, .product-img img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
 /*individual perfumes*/
 }
