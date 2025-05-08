@@ -279,7 +279,7 @@ nav a:hover {
   background-color: rgb(79, 79, 133);
 }
 .product-img {
-  width: 40%; 
+  width: 800px; 
   height: 600px; 
   border-radius: 15px;
   position: relative;
@@ -295,7 +295,7 @@ nav a:hover {
 }
 /*floral*/
 .product-imgfloral {
-  width: 40%; 
+  width: 1000px; 
   height: 600px; 
   border-radius: 15px;
   position: relative;
@@ -311,7 +311,7 @@ nav a:hover {
 }
 /*citrus*/
 .product-imgcitrus {
-  width: 40%; 
+  width: 750%; 
   height: 600px; 
   border-radius: 15px;
   position: relative;
