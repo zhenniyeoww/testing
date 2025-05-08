@@ -163,7 +163,7 @@
     </div>
   </div>
 
-  <section class="collection1" style="display: flex; gap: 40px; justify-content: center;">
+  <section class="collection1" style="display: flex; gap: 40px; justify-content: center; flex-wrap: wrap;">
     <div class="pasilip">
       <h2>Explore Our Woody Picks</h2>
       <div class="product-gridw" style="padding: 25px;">
